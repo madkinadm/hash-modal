@@ -1,0 +1,33 @@
+[data-handler="hash-modal"] {
+    border: 0;
+    margin: auto;
+    outline: none;
+    padding: 1rem;
+}
+
+[data-handler="hash-modal"] * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[data-handler="hash-modal"]::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+[data-handler="hash-modal"] header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    padding-bottom: .5rem;
+}
+
+[data-handler="hash-modal"] .hash-modal-close {
+    cursor: pointer;
+    display: inline;
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    top: .5rem;
+}
